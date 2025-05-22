@@ -1,0 +1,256 @@
+body {
+  background-color: rgb(10, 99, 144);
+  font-family: Arial, sans-serif;
+  color: white;
+  margin-left: 300px;
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  margin-top: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: rgb(255, 215, 0); 
+  text-align: center;
+}
+
+h2 {
+  margin-top: 40px;
+  font-weight: bold;
+  color: rgb(255, 179, 71); 
+}
+
+h3 {
+  
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+  color: rgb(255, 179, 71);
+}
+
+button {
+  background-color: white;
+  color: rgb(10, 99, 144);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  border-color: rgb(10, 99, 144);
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 10px;
+  text-align: center;
+  transition: background-color 0.5s;
+  border-style: solid;
+}
+
+.button-left {
+  float: left;
+  margin-left: 20px;
+}
+
+.button-right {
+  float: right;
+  margin-right: 20px;
+}
+
+button:hover {
+  background-color: rgb(10, 99, 144);
+  color: white;
+}
+
+button:active {
+  background-color: rgb(5, 70, 100);
+  color: white;
+}
+
+.top-left {
+  text-align: left;
+  color: white;
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+}
+
+
+.preview {
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-top: 102px;
+  margin-right: 60px;
+  
+}
+
+.languages {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+  text-align: left;
+  color: rgb(255, 179, 71);
+  font-size: 1.5em;
+  margin-top: 115px;
+}
+
+.english {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  margin-top: 125px;
+  margin-left: 20px;
+  color: white;
+  text-align: left;
+}
+
+.hindi {
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  margin-top: 135px;
+  margin-left: 20px;
+  color: white;
+  text-align: left;
+}
+
+h5 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+  margin-top: 250px;
+  text-align: left;
+  color: rgb(255, 179, 71);
+  font-size: 1.5em;
+}
+
+.bar {
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: 20px;
+  border: none;
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #444;
+  position: absolute;
+  margin-top: 300px;
+}
+
+.lans {
+  font-size: 16px;
+  line-height: 1.5; 
+  color: white;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 30px;
+
+}
+
+
+.python {
+  font-size: 16px;
+  line-height: 1.5; 
+  color: white;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 80px;
+}
+
+.python-bar {
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: 20px;
+  border: none;
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #444;
+  position: absolute;
+  margin-top: 330px;
+  margin-right: 20px;
+}
+
+
+.html {
+  font-size: 16px;
+  line-height: 1.5; 
+  color: white;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 80px;
+}
+
+
+.html-bar {
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: 20px;
+  border: none;
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #444;
+  position: absolute;
+  margin-top: 400px;
+  margin-right: 20px;
+}
+
+
+.css {
+  font-size: 16px;
+  line-height: 1.5; 
+  color: white;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  margin-top: 440px;
+  margin-left: 80px;
+}
+
+
+.css-bar {
+  top: 10px;
+  left: 10px;
+  width: 200px;
+  height: 20px;
+  border: none;
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #444;
+  position: absolute;
+  margin-top: 470px;
+  margin-right: 20px;
+}
+
+
+
+p {
+  
+  font-size: 16px;
+  line-height: 1.5; 
+  color: white;
+  text-align: center;
+}
